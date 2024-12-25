@@ -1,0 +1,924 @@
+@import url('https://fonts.googleapis.com/css2?family=Barrio&family=Henny+Penny&family=Jolly+Lodger&family=Londrina+Sketch&family=Modak&family=Rubik+Wet+Paint&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+}
+:root{
+    --Font-Color:rgb(226, 11, 11);
+    --Font-Family: "Modak", system-ui;
+}
+.logo h1 b{
+    color: rgb(238, 234, 234);
+    font-family: var(--Font-Family);
+    font-size: 35px;
+    letter-spacing: 1px;
+}
+header{
+    width: 80%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    border-radius: 00 10px 10px;
+    margin: 0 auto;
+}
+.hambarger{
+    display: none;
+}
+nav ul{
+    display: flex;
+    transform: translateX(30%);
+}
+nav ul li {
+    display: block;
+    color: white;
+    margin: 0px 2px;
+    font-weight: 600;
+    margin-right: 10px;
+    font-weight: 200;
+    cursor: pointer;
+    padding: 8px 18px;
+    transition: 0.2s;
+    border-radius: 5px;
+}
+nav ul li:hover{
+   background-color: var(--Font-Color);
+   color: white;
+   
+}
+nav ul li:active{
+   background-color: var(--Font-Color);
+   color: white;
+}
+.Sign_up{
+    display: block;
+    color: white;
+    margin: 0px 2px;
+    font-weight: 600;
+    padding: 8px 18px;
+    transition: 0.2s;
+    border-radius: 30px;
+    background-color: var(--Font-Color);
+    border-radius: 5px;
+}
+nav .Sign_up p{
+    color: white;
+    font-family:  var(--Font-Family);
+    letter-spacing: 1px;
+}
+.Sign_up:active{
+    background-color: var(--Font-Color);
+    color: white;
+}
+nav .Logos{
+    display: none;
+}
+body{
+    width: 100%;
+    height: 90vh;
+    background-image: url('https://i.ibb.co/rxBt4x3/Christmas-Aesthetic.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.user_name{
+    font-family: var(--Font-Family);
+    letter-spacing: 1px;
+    font-size: 21px;
+}
+.email_input{
+    font-family: var(--Font-Family);
+    letter-spacing: 1px;
+    font-size: 21px;
+}
+.password_hub{
+    font-family: var(--Font-Family);
+    letter-spacing: 1px;
+    font-size: 21px;
+}
+form input{
+    padding: 10px;
+    border: 2px solid var(--Font-Color);
+    outline: none;
+    border-radius: 15px;
+    color: black;
+}
+form h2{
+    font-family: var(--Font-Family);
+    font-size: 23px;
+    letter-spacing: 1px;
+    transform: translateY(-60%);
+}
+.Sifgn_upbtn{
+    font-family: var(--Font-Family);
+    color: var(--Font-Color);
+    border: 2px solid white;
+    padding: 8px 18px;
+    background-color: white;
+    font-size: 19px;
+    width: 70%;
+    transform: translateY(90%);
+    border-radius: 5px;
+}
+.Login_btn{
+    font-family: var(--Font-Family);
+    color: var(--Font-Color);
+    border: 2px solid white;
+    padding: 8px 18px;
+    background-color: white;
+    font-size: 19px;
+    width: 70%;
+    transform: translateY(90%);
+    border-radius: 5px;
+}
+.Signup_content form{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 75%;
+    height: 70vh;
+    transform: translateY(20%);
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(207, 11, 11, 0.852);
+}
+.login-content-blah form{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 175%;
+    height: 60vh;
+    transform: translateX(-120%);
+    display: flex;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(207, 11, 11, 0.852);
+}
+.phonenumber{
+    font-family: var(--Font-Family);
+}
+.userpassword{
+    font-family: var(--Font-Family);
+}
+
+nav ul{
+    border: 1px solid gainsboro;
+    padding: 15px;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+
+}
+
+.Homefantasy_Content h1{
+    font-family: var(--Font-Family);
+    color: white;
+}
+.Explore_btn button{
+    font-family: var(--Font-Family);
+    color: whitesmoke;
+}
+.Homefantasy_Content{
+    border: 1px solid rgba(72, 72, 72, 0.464);
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    backdrop-filter: blur(10px);
+    transform: translateX(10%);
+    border-radius: 30px;
+    width: 60%;
+}
+.Whole_Home_Cntent{
+    margin-top: 80px;
+}
+
+.Home_BtnProfile {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 100px;
+    transform: translateX(-63%);
+}
+#service_title{
+    font-family: var(--Font-Family);
+    color: var(--Font-Color);
+}
+.Service_christmas p{
+    font-size: 13px;
+    text-align: center;
+}
+#Ser_One{
+    border: 2px solid red;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+#Ser_two{
+    border: 2px solid red;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+#Ser_three{
+    border: 2px solid red;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+#head_Ser{
+    font-family: var(--Font-Family);
+    color: var(--Font-Color);
+    margin-bottom: 50px;
+}
+.Product_img img{
+    width: 250px;
+    height: 200px;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+#helltree{
+    width: 400px;
+    height: 200px;
+    object-fit: cover;
+}
+.Product_img{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+    gap: 20px;
+    padding: 20px;
+    margin-left: 25px;
+    margin-top: 150px;
+}
+.subscription_btn{
+    border: 2px solid var(--Font-Color);
+    background-color: var(--Font-Color);
+    border-radius: 5px;
+    color: white;
+    font-family: var(--Font-Family);
+}
+.subscription_email{
+    padding: 0.75rem;
+    border-radius: 5px;
+}
+.price_img_one{
+    width: 250px;
+    object-fit: cover;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    height: 350px;
+}
+.price_img_two{
+    width: 150px;
+    height: 130px;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 5px;
+    transform: translateX(100%);
+}
+.price_gift{
+    transform: translateY(-70%);
+}
+.Subscription_content{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.Subscription_Content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+.Subscription_Content h1{
+    font-family: var(--Font-Family);
+}
+.Blog_content h2{
+    font-family: var(--Font-Family);
+}
+.Blog_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://i.ibb.co/bgp1wDp/Whats-App-Image-2024-11-03-at-20-55-54-e6862f13.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 350px;
+    flex-direction: column;
+}
+.blog_inside{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    backdrop-filter: blur(8px);
+    padding: 25px;
+}
+.Credit_Content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 200px;
+}
+.Credit_One h2{
+    font-family: var(--Font-Family);
+    color: var(--Font-Color);
+}
+.Credit_Two h2{
+    font-family: var(--Font-Family);
+    color: var(--Font-Color);
+}
+.Credit_Three h2{
+    font-family: var(--Font-Family);
+    color: var(--Font-Color);
+}
+.Credit_One button{
+    border: 2px solid var(--Font-Color);
+    border-radius: 5px;
+    padding: 8px 40px;
+    margin-top: 25px;
+    background-color: white;
+    font-family: var(--Font-Family);
+    color: var(--Font-Color);
+}
+.Credit_Two button{
+    border: 2px solid var(--Font-Color);
+    border-radius: 5px;
+    background-color: white;
+    padding: 8px 40px;
+    margin-top: 25px;
+    color: var(--Font-Color);
+    font-family: var(--Font-Family);
+}
+.Credit_Three button{
+    border: 2px solid var(--Font-Color);
+    border-radius: 5px;
+    padding: 8px 40px;
+    background-color: white;
+    color: var(--Font-Color);
+    margin-top: 25px;
+    font-family: var(--Font-Family);
+}
+.Credit_One{
+    border: 2px solid var(--Font-Color);
+    border-radius: 5px;
+    backdrop-filter: blur(5px);
+    padding: 30px;
+    transform: translateY(-20%);
+    color: white;
+}
+.Credit_Three{
+    border: 2px solid var(--Font-Color);
+    border-radius: 5px;
+    padding: 30px;
+    transform: translateY(-20%);
+    color: white;
+    backdrop-filter: blur(5px);
+}
+.Credit_Two{
+    border: 2px solid var(--Font-Color);
+    border-radius: 5px;
+    transform: translateY(-20%);
+    color: white;
+    padding: 30px;
+    backdrop-filter: blur(5px);
+}
+.About_Conttent h2{
+    font-family: var(--Font-Family);
+    color: var(--Font-Color);
+}
+.About_Conttent{
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.Search_Product input{
+    outline: none;
+    border: none;
+}
+.Search_Product{
+    border: 2px solid var(--Font-Color);
+    padding: 12px 18px;
+    display: flex;
+    background-color: white;
+    flex-direction: row;
+    justify-content: center;
+    border-radius: 30px;
+    width: 300px;
+}
+#search_icon{
+    transform: translateX(100%);
+}
+.Search_Background{
+    background-image: url('https://i.ibb.co/Rvm3M24/Free-Christmas-Wallpapers-for-Desktop-AI-Generated-Collection.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    height: 40vh;
+}
+.Brand_Logo img{
+    width: 200px;
+    height: 150px;
+    border: 1px solid black;
+    border-radius: 10px;
+    object-fit: cover;
+}
+.Brand_Logo{
+    display: flex;
+    gap: 50px;
+    margin-top: 100px;
+    flex-direction: row;
+}
+.Product_forChristmas img{
+    width:400px;
+    height: 200px;
+    object-fit: cover;
+    border: 1px solid gainsboro;
+    border-radius: 10px;
+}
+.Product_forChristmas h2{
+    font-family: var(--Font-Family);
+    color: var(--Font-Color);
+}
+.Product_forChristmas button{
+    font-family: var(--Font-Family);
+    color: white;
+    border: 2px solid var(--Font-Color);
+    border-radius: 11px;
+    background-color: var(--Font-Color);
+    padding: 8px 134px;
+}
+
+.Product_forChristmas{
+    border: 2px solid var(--Font-Color);
+    border-radius: 10px;
+    width: 75%;
+    transform: translateX(20%);
+}
+.ProductWhole_Content{
+    display: grid;
+    row-gap: 50px;
+    margin-top: 100px;
+    grid-template-columns: repeat(3,1fr);
+}
+.Including_Productimgs img{
+    border: 1px solid gainsboro;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    width:250px;
+    height: 300px;
+    object-fit: cover;
+}
+.Including_Productpara h2{
+    font-family: var(--Font-Family);
+    color: var(--Font-Color);
+}
+.Including_Btn button{
+    font-family: var(--Font-Family);
+    padding: 8px 65px;
+}
+.includig_btncontdnt{
+    display: flex;
+    flex-direction: row;
+}
+.Including_Wholecontent{
+   transform: translateX(90%);
+}
+.Footer_WholeContent{
+   display: flex;
+   justify-content: space-around;
+   flex-direction: row;
+   flex-wrap: wrap;
+}
+.Footer_Contentone h1{
+    font-family: var(--Font-Family);
+}
+.Footer_Contenttwo h2{
+    font-family: var(--Font-Family);
+}
+.Footer_Contentthree h2{
+    font-family: var(--Font-Family);
+}
+.Footer_Contentfour h2{
+    font-family: var(--Font-Family);
+}
+#Instagram{
+    border: 1px solid gainsboro;
+    padding: 4px;
+    background-image: linear-gradient(45deg,rgb(255, 238, 0),rgb(255, 106, 0),rgb(245, 4, 4),rgb(225, 0, 38),rgb(193, 13, 193));
+    border-radius: 4px;
+    cursor: pointer;
+    color: white;
+}
+#Dev{
+    border: 1px solid gainsboro;
+    padding: 4px;
+    background-image: linear-gradient(45deg,rgb(26, 23, 23),black);
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+#Facebook{
+    border: 1px solid gainsboro;
+    color: white;
+    padding: 4px;
+    cursor: pointer;
+    border-radius: 4px;
+    background-image: linear-gradient(45deg,blue,rgb(0, 174, 255));
+}
+#Figma{
+    border: 1px solid gainsboro;
+    padding: 4px;
+    background-image: linear-gradient(45deg,rgb(255, 89, 0),rgb(250, 176, 205),rgb(233, 19, 233),rgb(54, 177, 254),rgb(92, 255, 92));
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+#Twitter{
+    border: 1px solid gainsboro;
+    padding: 4px;
+    background-image: linear-gradient(45deg,rgb(27, 88, 255),rgb(0, 174, 255));
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.Footer_WholeContent{
+    background-color: var(--Font-Color);
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+#messing_page {
+    font-family: var(--Font-Family);
+    color: var(--Font-Color);
+}
+.Abaout-World{
+    border: 1px solid gainsboro;
+    border-radius: 30px;
+    backdrop-filter: blur(10px);
+    width: 80%;
+    color: black;
+    transform: translateX(15%);
+    padding-bottom: 50px;
+}
+.Drop-dwon-contet{
+    z-index: 10;
+}
+#Collection-world-home{
+    border-radius: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    backdrop-filter: blur(5px);
+}
+#OneBtn{
+    transition: 1s;
+}
+#OneBtn:hover{
+    background-color: red;
+    color: white;
+}
+#OneBtn:focus{
+    background-color: red;
+    color: white;
+}
+#TwoBtn{
+    transition: 1s;
+}
+#TwoBtn:hover{
+    background-color: red;
+    color: white;
+}
+#TwoBtn:focus{
+    background-color: red;
+    color: white;
+}
+#ThreeBtn{
+    transition: 1s;
+}
+#ThreeBtn:hover{
+    background-color: red;
+    color: white;
+}
+#ThreeBtn:focus{
+    background-color: red;
+    color: white;
+}
+@media only screen and (max-width:1100px){
+    header{
+        width: 90%;
+        padding: 0 20px;
+    }
+    #nav_check:checked ~ nav{
+        left: 0;
+    }
+    .Logos{
+        color: var(--Font-Color);
+    }
+    nav{
+        position: absolute;
+        left: -300px;
+        top: 0;
+        z-index: 999;
+        width: 280px;
+        height: 100vh;
+        background-color: var(--Font-Color);
+        transition: 0.2s;
+        box-shadow: 2px 0px 20px 0px rgba(0, 0, 0, 0.5);
+    }
+    nav ul li{
+        margin-bottom: 5px;
+        padding: 10px 15px;
+        color: white;
+        border-radius: 5px;
+    }
+    nav ul {
+        border: none;
+    }
+    nav .Logos{
+        display: block;
+        height: 70px;
+        display: flex;
+        color: white;
+        align-items: center;
+        margin-left: 30px;
+    }
+    nav ul{
+        display: block;
+        transform: none;
+        padding: 0 20px;
+        margin-top: 30px;
+    }
+    .hambarger{
+        display: block;
+    }
+    .dropdown ul{
+        border: 2px solid white;
+        padding: 8px 18px;
+        background-color: white;
+        transform: translateY(-15%);
+        border-radius: 30px;
+    }
+    .dropdown ul li{
+        color: var(--Font-Color);
+        cursor: pointer;
+    }
+    .Homefantasy_Content {
+       width: 90%;
+       transform: translateX(-1%);
+       margin-left: 10px;
+    }
+    .Homefantasy_Content h1{
+        font-size: 35px;
+    }
+    .Homefantasy_Content p{
+        font-size: 15px;
+    }
+    .Home_BtnProfile{
+        transform: translateX(5%);
+    }
+    .Whole_Home_Cntent{
+        transform: translateY(-5%);
+    }
+    body{
+        height: 102vh;
+    }
+    .Product_img{
+        transform: translateY(-8%);
+    }
+    .Subscription_Content{
+        display: flex;
+        transform: translateY(-13%);
+        flex-direction: column;
+    }
+    .Subscription_Content h1{
+        transform: translateX(1%);
+    }
+    .subscription-images{
+        transform: translateX(-10%);
+    }
+    .Blog_content{
+        height: 80vh;
+    }
+    .Blog_content p{
+        font-size: 15px;
+    }
+    .Footer_Contentone h1{
+        font-size: 25px;
+    }
+    .Footer_Contentone p{
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+    .Footer_Contenttwo h2{
+        font-size: 25px;
+    }
+    .Footer_Contenttwo ul li{
+        font-size: 15px;
+    }
+    .Footer_Contentthree h2{
+        font-size: 25px;
+    }
+    .Footer_Contentthree ul li{
+        font-size: 15px;
+    }
+    .Footer_Contentfour h2{
+        font-size: 25px;
+    }
+    .Footer_Contentfour p{
+        font-size: 15px;
+    }
+    .Footer_Contenttwo{
+        margin-bottom: 20px;
+    }
+    .Footer_Contentthree{
+        margin-bottom: 20px;
+    }
+    #icons-footer{
+        transform: translateX(45%);
+    }
+    .Footer_WholeContent{
+        display: flex;
+        flex-direction: column;
+    }
+    .Footer_Contentone{
+        transform: translateX(7%);
+    }
+    .Footer_Contenttwo{
+        transform: translateX(7%);
+    }
+    .Footer_Contentthree{
+        transform: translateX(7%);
+    }
+    .Footer_Contentfour{
+        transform: translateX(7%);
+    }
+    .ProductWhole_Content{
+        grid-template-columns: 1fr;
+        width: 115%;
+        transform: translateX(-9%);
+    }
+    .ProductWhole_Content p{
+        font-size: 14px;
+    }
+    .ProductWhole_Content button{
+        width: 93%;
+    }
+    #service-part{
+        display: flex;
+        flex-direction: column;
+    }
+    #Ser_One{
+        width: 70%;
+    }
+    #Ser_two{
+        width: 70%;
+    }
+    #Ser_three{
+        width: 70%;
+    }
+    .Credit_One{
+        margin-bottom: 50px;
+    }
+    .Credit_Two{
+        margin-bottom: 50px;
+    }
+    .Credit_Three{
+        margin-bottom: 50px;
+    }
+    .Signup_content{
+        transform: translateX(1%);
+        width: 160%;
+        position: fixed;
+    }
+    .Abaout-World{
+        backdrop-filter: none;
+        border: none;
+    }
+    #Aboutcontentone{
+        transform: translateX(-5%);
+        border: 2px solid red;
+        border-radius: 10px;
+        background-color: white;
+        padding: 10px;
+    }
+    #Abouthead{
+        transform: translateY(20%);
+    }
+    #aboutcontenttwo{
+        transform: translateX(-3%);
+        margin-top: 60px;
+        border: 2px solid red;
+        border-radius: 10px;
+        background-color: white;
+        padding: 10px;
+    }
+    #aboutcontentthree{
+        transform: translateX(-1%);
+        margin-top: 60px;
+        border: 2px solid red;
+        border-radius: 10px;
+        background-color: white;
+        padding: 10px;
+    }
+    #aboutcontentfour{
+        transform: translateX(-2%);
+        margin-top: 60px;
+        border: 2px solid red;
+        border-radius: 10px;
+        background-color: white;
+        padding: 10px;
+    }
+    #aboutcontentfive{
+        transform: translateX(-1%);
+        margin-top: 60px;
+        border: 2px solid red;
+        border-radius: 10px;
+        background-color: white;
+        padding: 10px;
+    }
+    #aboutcontentsix{
+        margin-top: 60px;
+        border: 2px solid red;
+        border-radius: 10px;
+        background-color: white;
+        padding: 10px;
+    }
+    #christmaswonder b{
+        font-size: 25px;
+    }
+    .Credit_One{
+        background-color: white;
+        color: black;
+    }
+    .Credit_Two{
+        background-color: white;
+        color: black;
+    }
+    .Credit_Three{
+        background-color: white;
+        color: black;
+    }
+    #OneBtn{
+        transition: 1s;
+    }
+    #OneBtn:hover{
+        background-color: red;
+        color: white;
+    }
+    #OneBtn:focus{
+        background-color: red;
+        color: white;
+    }
+    #TwoBtn{
+        transition: 1s;
+    }
+    #TwoBtn:hover{
+        background-color: red;
+        color: white;
+    }
+    #TwoBtn:focus{
+        background-color: red;
+        color: white;
+    }
+    #ThreeBtn{
+        transition: 1s;
+    }
+    #ThreeBtn:hover{
+        background-color: red;
+        color: white;
+    }
+    #ThreeBtn:focus{
+        background-color: red;
+        color: white;
+    }
+}
